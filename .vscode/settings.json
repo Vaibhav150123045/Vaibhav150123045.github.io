@@ -1,0 +1,14 @@
+{
+  // Enables auto-fixing linting errors on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    // Or target a specific linter like ESLint:
+    // "source.fixAll.eslint": "explicit"
+  },
+  
+  // (Optional but recommended) Formats the code on save
+  "editor.formatOnSave": true,
+  
+  // Ensures VS Code uses Prettier as the default formatter if installed
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
